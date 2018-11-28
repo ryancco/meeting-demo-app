@@ -1,0 +1,16 @@
+{
+    "name": "ryancco/meeting-demo",
+    "autoload": {
+        "psr-4": {
+            "demo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
